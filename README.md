@@ -5,7 +5,11 @@ A starter template to quickly create nativescript angular projects with drawer p
 `tns create my-project-name --template nativescript-angular-drawer-template`
 
 ## Preview
+### Android
+![android-preview](http://ngxp.io/wp-content/product-previews/nativescript-angular-drawer-template/ns-ng-drawer-template-android.gif)
 
+### iOS
+![ios-preview](http://ngxp.io/wp-content/product-previews/nativescript-angular-drawer-template/ns-ng-drawer-template-ios.gif)
 
 ## How To Change Menu Items
 You can change the menu items of drawer from `app/modules/shared/side-drawer-page/side-drawer-page.component.ts` file as shown below:
