@@ -6,5 +6,5 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomeComponent {
-  text: string = 'This is a home page';
+  text: string = 'Home Page';
 }

@@ -6,5 +6,5 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AboutComponent {
-  text: string = 'This is about page';
+  text: string = 'About Page';
 }
