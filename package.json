@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/shripalsoni04/nativescript-angular-drawer-template"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/shripalsoni04/nativescript-angular-drawer-template/issues"
   },
   "keywords": [
     "mobile",
@@ -18,9 +18,10 @@
     "nativescript",
     "{N}",
     "tns",
-    "template"
+    "template",
+    "drawer"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/shripalsoni04/nativescript-angular-drawer-template",
   "dependencies": {
     "@angular/common": "2.1.2",
     "@angular/compiler": "2.1.2",
