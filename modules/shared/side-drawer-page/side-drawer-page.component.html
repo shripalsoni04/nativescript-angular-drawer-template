@@ -10,17 +10,19 @@
           text="NS NG Drawer Starter">
       </Label>
     </StackLayout>
-    <StackLayout class="sidedrawer-content">
-      <GridLayout
-          class="sidedrawer-list-item"
-          *ngFor="let nav of navMenu">
-        <Button
-            class="sidedrawer-list-item-text borderless-btn"
-            [text]="nav.name"
-            (tap)="navigateTo(nav.commands)">
-        </Button>
-      </GridLayout>
-    </StackLayout>
+    <ScrollView>
+      <StackLayout class="sidedrawer-content">
+        <GridLayout
+            class="sidedrawer-list-item"
+            *ngFor="let nav of navMenu">
+          <Button
+              class="sidedrawer-list-item-text borderless-btn"
+              [text]="nav.name"
+              (tap)="navigateTo(nav.commands)">
+          </Button>
+        </GridLayout>
+      </StackLayout>
+    </ScrollView>
   </StackLayout>
   <StackLayout tkMainContent>
     <StackLayout [visibility]="isContentVisible ? 'visible' : 'collapsed'">
