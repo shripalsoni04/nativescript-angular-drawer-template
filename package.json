@@ -1,7 +1,7 @@
 {
   "name": "nativescript-angular-drawer-template",
   "main": "main.js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Shripal Soni <shripalsoni04@gmail.com>",
   "description": "A starter template with drawer navigation for nativescript angular projects.",
   "license": "MIT",
