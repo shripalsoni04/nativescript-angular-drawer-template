@@ -69,6 +69,7 @@ export class SideDrawerPageComponent implements AfterViewInit, OnDestroy {
    * Navigates to next page after drawer is closed.
    */
   navigateTo(routeCommands: any[]) {
+    this.drawer.off('drawerClosed')
     this.drawer.closeDrawer();
     let currentUrl = this.routerExtensions.router.routerState.snapshot.url;
     let newUrlTree = this.routerExtensions.router.createUrlTree(routeCommands);
