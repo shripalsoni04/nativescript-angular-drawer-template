@@ -9,9 +9,9 @@ import { BorderlessBtnDirective } from './borderless-btn.directive';
 @NgModule({
   imports: [
     NativeScriptModule,
+    NativeScriptUISideDrawerModule,
   ],
   declarations: [
-    NativeScriptUISideDrawerModule,
     SideDrawerPageComponent,
     BorderlessBtnDirective
   ],
