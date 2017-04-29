@@ -84,6 +84,7 @@ export class SideDrawerPageComponent implements AfterViewInit, OnDestroy {
               animated: false
             });
           this.isContentVisible = true;
+          this.drawer.off('drawerClosed');
         });
       });
     }
